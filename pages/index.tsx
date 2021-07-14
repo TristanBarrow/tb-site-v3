@@ -1,5 +1,6 @@
+
 export default function Home() {
     return (
-        <div>Hello</div>
+        <div>This is for the Pipeline Test</div>
     );
 }
