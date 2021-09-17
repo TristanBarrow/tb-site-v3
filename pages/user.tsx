@@ -1,5 +1,10 @@
 import { signIn, signOut, useSession } from 'next-auth/client';
+import styled from 'styled-components';
 import useSWR from 'swr';
+
+const Thing = styled.div`
+  color: red;
+`;
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
@@ -15,6 +20,6 @@ export default function User() {
       Signed in as {JSON.stringify(session)} <br/>
       <button onClick={() => signOut()}>Sign out</button>
     </>} */}
-    <div>{JSON.stringify(data)}</div>
+    <Thing>{'hi'}</Thing>
   </>
 }
