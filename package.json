@@ -14,13 +14,16 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@google-cloud/firestore": "^4.15.1",
     "ioredis": "^4.27.6",
     "next": "11.0.1",
     "next-auth": "^3.27.3",
+    "prompt-sync": "^4.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.0",
-    "swr": "^0.5.6"
+    "swr": "^0.5.6",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^7.0.1",
